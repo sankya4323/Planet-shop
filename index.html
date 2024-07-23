@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <title>Planet Shopping</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+        }
+        body{
+            background-color: #051937;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid white;
+            padding: 0px 10px;
+            text-decoration: none;
+            border-radius: 50px;
+
+        }
+        .logo{
+            border: 2px solid red;
+            padding: 10px 5px
+        }
+     .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+        }
+        .home{
+            background-color: white;
+            color:black;
+        }
+        .home:hover{
+            background-color: black;
+            color: white;
+        }
+        .offer{
+            background-color: white;
+            color: black;
+        }
+        .offer:hover{
+            background-color: black;
+            color: white;
+        }
+        .by{
+            background-color: white;
+            color: black;
+        }
+        .by:hover{
+            background-color: black;
+            color: white;
+        }
+        .sell{
+            background-color: white;
+            color: black;
+        }
+        .sell:hover{
+            background-color: black;
+            color: white;
+        }
+        .about{
+            background-color: white;
+            color: black;
+        }
+        .about:hover{
+            background-color: black;
+            color: white;
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px 150px;
+            flex: wrap;
+        }
+        main h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 28px;
+
+        }
+        .contentleft{
+            flex: 1;
+        }
+        .contentmid{
+            flex: 2;
+        }
+        .contentright{
+             flex: 1;
+        }
+        .merc{
+            max-width: 300px;
+            height: auto;
+        }
+        .btns{
+            padding: 15px 30px;
+            background-color: white;
+            outline: none;
+            border: none;
+            color: black;
+            text-transform: uppercase;
+            border-radius: 50px;
+
+
+        }
+        .btns:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="a" class="home">Home</a></li>
+                <li><a href="a" class="offer">Offer</a></li>
+                <li><a href="a" class="by">Planet list</a></li>
+                <li><a href="a" class="sell">Sell now</a></li>
+                <li><a href="a" class="about">About us</a></li>
+                <li><a href="a" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+            <h2>Mercury</h2>
+        </div>
+        <div class="contentmid">
+            <p>
+                Mercury is the smallest planet in our solar system and the nearest to the Sun. Mercury is only slightly larger than Earth's Moon. Its surface is covered in tens of thousands of impact craters. Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named after the ancient Roman god Mercurius, god of commerce and communication, and the messenger of the gods.<br> Mercury is classified as a terrestrial planet, with roughly the same surface gravity as Mars.</p>
+                <br>
+            <button class="btns">By Now</button>
+        </div>
+        <div class="contentright">
+           <img src="mercury.png"class="merc">
+        </div>
+       
+    </main>
+</body>
